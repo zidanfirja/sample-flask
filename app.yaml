@@ -1,0 +1,2 @@
+runtime: python38  # Sesuaikan dengan versi Python yang digunakan
+entrypoint: gunicorn -b :$PORT app:app  # Sesuaikan dengan file utama aplikasi Flask Anda
